@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>HTML5 Web Worker Factorial</title>
+    <meta name="description" content="A simple HTML5 web worker example for 3WEB Supinfo courses" />
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+<div id="container">
+    <header>
+        <h1>HTML5 web worker</h1>
+    </header>
+
+    <section>
+        <fieldset>
+            <legend>Calculate factorial</legend>
+
+            <form action="." method="get" id="factorial-form">
+                <p><label>Number: <input type="number" name="number" value="25" required/></label></p>
+
+                <p><input type="submit" value="Calculate"/></p>
+            </form>
+        </fieldset>
+
+        <ul id="results"></ul>
+    </section>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
