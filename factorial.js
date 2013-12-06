@@ -9,7 +9,7 @@ function factorial(n, callback) {
 
             setTimeout(function () {
                 callback(result)
-            }, 200);
+            }, 2000);
         });
     }
 }
